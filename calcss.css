@@ -1,0 +1,74 @@
+* { 
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: coral;
+}
+
+
+
+/*to center the calculator or div*/
+.wrapper {
+text-align: center;
+height: 450px;
+width: 300px;
+background-color: rgb(0, 0, 0);
+border-radius: 15px;
+margin: 60px auto;
+margin-top: 10%;
+border-top-left-radius: 40px;
+
+}
+
+#display {
+border: none;
+outline: none;
+width: 280px;
+height: 70px;
+color: rgb(24, 24, 24);
+font-size: 58px;
+font-weight: 500;
+padding: 10px;
+text-align: right;
+background-color: rgb(255, 81, 50);
+border-top-left-radius: 35px;
+}
+
+#display::placeholder{
+color: rgb(24, 24, 24);
+}
+
+.buttons-box{
+margin: 30px 15px;
+}
+
+.btn {
+width: 60px;
+height: 70px;
+margin: 2px;
+line-height: 10px;
+font-weight: bold;
+outline: none;
+border: none;
+background-color: rgb(251, 234, 255);
+cursor: pointer;
+border-radius: 1px;
+transition: all ease-in-out 150ms;
+}
+
+.btn:hover{
+    background-color:   rgb(88, 217, 206);
+}
+
+.cbtn, cbtn:hover{
+background-color: rgb(236, 53, 53);
+color: azure;
+}
+
+.mbtn, mbtn:hover{
+background: tomato;
+color: azure;
+}
+    
